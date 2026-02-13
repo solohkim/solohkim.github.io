@@ -1,7 +1,7 @@
 ---
 title: "CTF MEOW WALKTHROUGH HTB"
 date: 2026-02-12
-categories: [web penetration testing]
+categories: [vulnerability assessment, web test]
 tag [web hack, xss injection, hashing]
 ---
 Welcome to this blog post where we are going to explore meow machine from hack the box.
