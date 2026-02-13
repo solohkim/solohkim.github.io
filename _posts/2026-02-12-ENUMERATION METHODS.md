@@ -9,6 +9,7 @@ tags: [web enum, methods]
 Finding shared folders, printers, and user lists on Windows machines.
 nbtstat, enum4linux
 
+
 ## SNMP
 Querying Simple Network Management Protocol to find device info and traffic stats
 snmpwalk, onesixtyone
