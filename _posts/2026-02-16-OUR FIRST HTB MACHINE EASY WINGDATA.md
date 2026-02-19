@@ -71,7 +71,7 @@ Gobuster is useful for pentesters, ethical hackers and forensics experts. It als
 
 Navigating to the web interface, we are greeted by the Wing FTP Server dashboard. Wing FTP is a cross-platform server supporting FTP, HTTP, FTPS, and SFTP.
 
-Clicking the “Client Portal” button redirects to a new virtual host at http://ftp.wingdata.htb/, revealing a login page.
+Clicking the “Client Portal” button redirects to a new virtual host at the ftp domain revealing a login page.
 
 At the bottom, the application discloses its fingerprint: Wing FTP Server v7.4.3.
 
