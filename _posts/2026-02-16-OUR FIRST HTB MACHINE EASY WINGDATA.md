@@ -66,7 +66,20 @@ Gobuster is a tool used to brute-force: URIs (directories and files) in web site
 Gobuster is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 ![Screenshot for directory](/assets/gobuster.png)
 
-## Apache httpd 2.4 exploits
-Multiple vulnerabilities were identified in Apache HTTP Server. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, security restriction bypass and sensitive information disclosure on the targeted system.
-![Screenshot for directory](/assets/exploits.png)
+
+## Web Enumeration
+
+Navigating to the web interface, we are greeted by the Wing FTP Server dashboard. Wing FTP is a cross-platform server supporting FTP, HTTP, FTPS, and SFTP.
+
+Clicking the “Client Portal” button redirects to a new virtual host at http://ftp.wingdata.htb/, revealing a login page.
+
+At the bottom, the application discloses its fingerprint: Wing FTP Server v7.4.3.
+
+Key observations:
+
+    Version identification is critical. Looking at the bottom of the page or the HTTP headers often reveals the specific build.
+    On WingData, the version is typically found to be prior to 7.4.4, which is a “red flag” for the recently disclosed CVE-2025-47812.
+ ![Screenshot for directory](/assets/gobuster.png)
+   
+
 
