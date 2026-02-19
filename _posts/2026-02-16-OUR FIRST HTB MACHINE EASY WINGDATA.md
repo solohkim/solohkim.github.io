@@ -40,7 +40,7 @@ check the http service on the web and found the webpage
 
 ## Manual enumeration (Inspecting source code for hidden info)
 The process of manually inspecting a target application's source code (if available) or client-side code (via browser developer tools) to gather information and identify vulnerabilities. 
-![Screenshot for code](/assets/nano.png)
+![Screenshot for code](/assets/code.png)
  
 
 ## Using ffuf for enumeration
@@ -57,12 +57,16 @@ Search Repology for other distributions
 Note: Repology is a service that monitors a lot of package repositories and other sources and aggregates data on software package versions, reporting new releases and packaging problems.
 
 If it’s not included in your Linux distribution you can deploy it manually following the installation instructions.
-![Screenshot for ffuf](/assets/nano.png)
+![Screenshot for ffuf](/assets/ffuf.png)
 
 ## Gobuster tool for deep enumeration
 Directory/file & DNS busting tool written in Go
 Gobuster is a tool used to brute-force: URIs (directories and files) in web sites, DNS subdomains (with wildcard support), Virtual Host names on target web servers, Open Amazon S3 buckets, Open Google Cloud buckets and TFTP servers.
 
 Gobuster is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
-![Screenshot for directory](/assets/nano.png)
+![Screenshot for directory](/assets/gobuster.png)
+
+## Apache httpd 2.4 exploits
+Multiple vulnerabilities were identified in Apache HTTP Server. A remote attacker could exploit some of these vulnerabilities to trigger denial of service condition, security restriction bypass and sensitive information disclosure on the targeted system.
+![Screenshot for directory](/assets/exploits.png)
 
