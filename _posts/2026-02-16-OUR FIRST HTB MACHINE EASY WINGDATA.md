@@ -79,7 +79,7 @@ Key observations:
 
     Version identification is critical. Looking at the bottom of the page or the HTTP headers often reveals the specific build.
     On WingData, the version is typically found to be prior to 7.4.4, which is a “red flag” for the recently disclosed CVE-2025-47812.
- ![Screenshot for directory](/assets/gobuster.png)
+ ![Screenshot for directory](/assets/ftpexploit.png)
    
 
 
