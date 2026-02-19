@@ -25,9 +25,8 @@ This may include:
 - Gathering employee information
 - Identifying technologies in use
 - Reviewing public records and exposed metadata
-
 The more information collected during this phase, the easier it becomes to identify potential attack surfaces later.
-![Screenshot for reconnaissance](/assests/recon.png)
+![Screenshot for ping](/assets/ping.png)
 ---
 
 ### 2. Scanning & Enumeration
