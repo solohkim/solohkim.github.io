@@ -81,6 +81,8 @@ Key observations:
     On WingData, the version is typically found to be prior to 7.4.4, which is a “red flag” for the recently disclosed CVE-2025-47812.
  ![Screenshot for directory](/assets/ftpexploit.png)
 
+ ## DUE TO RESTRICTIONS.......WE'LL CONTINUE AFTER MACHINE EXPIRATION
+
 
 
 
