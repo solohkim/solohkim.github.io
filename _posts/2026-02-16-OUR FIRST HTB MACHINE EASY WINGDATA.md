@@ -162,7 +162,7 @@ On WingData, keep an eye out for a script that handles data processing or backup
 ## Exploitation Strategy
 If the script allows you to write content to a location of your choice, the easiest path to root is:
 
-    SSH Key Injection: Write your public SSH key to /root/.ssh/authorized_keys.
+    SSH Key Injection: Write your public SSH key to
     Sudoers Edit: (If you can write with absolute precision) Add your user to the /etc/sudoers file.
 
 ## Achieving Root
