@@ -53,7 +53,7 @@ During vulnerability analysis, discovered services and systems are examined for 
 - Testing for weak authentication mechanisms
 - Assessing exposed services
 The objective is to determine which vulnerabilities are exploitable and prioritize them based on risk and impact.
-![Screenshot for phase2](/assets/phase3.jpg)
+![Screenshot for phase2](/assets/phase3.png)
 ---
 
 ### 4. Exploitation
