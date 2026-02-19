@@ -26,7 +26,7 @@ This may include:
 - Identifying technologies in use
 - Reviewing public records and exposed metadata
 The more information collected during this phase, the easier it becomes to identify potential attack surfaces later.
-![Screenshot for ping](/assets/ping.png)
+![Screenshot for ping](/assets/recon.png)
 ---
 
 ### 2. Scanning & Enumeration
