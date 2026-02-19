@@ -19,6 +19,7 @@ if it's reacheable via the vpn
 We'll perform a basic nmap scan to see the serices, open ports and other scripts on the
 machine. we'll use commands for tcp full scan.
  nmap -sC -sV -p- -T4 10.129.x.x
+ ![Screenshot for ping](/assets/nmap.png)
  
 ## Findings
 Port 22/tcp: SSH (OpenSSH)
