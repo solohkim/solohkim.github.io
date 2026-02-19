@@ -14,6 +14,7 @@ machines and challenges.
    Go to Access → VPN
    Choose your region (e.g., EU, US, etc.)
    Download the .ovpn file
+    ![OpenVPN Download Screenshot](/assets/download.png)
 
 ## How to Connect
 Navigate to the folder that contains the downloaded file and use the following commands first to install
