@@ -26,5 +26,6 @@ If you run it successfully you'll see
    Initialization Sequence Completed
 And if you'd like to disconnect, run this
    CTRL + C
-![OpenVPN Setup Screenshot](assets/openvpn-setup.png)
+    Find OpenVpn start screenshot here
+    'assets/openvpn-setup.png'
 
