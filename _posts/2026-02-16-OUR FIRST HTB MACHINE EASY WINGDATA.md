@@ -26,3 +26,15 @@ Port 22/tcp: SSH (OpenSSH)
 Port 80/tcp: HTTP (Apache/Nginx or Wing FTP Web Interface)
 Port 8080/tcp: Often used for the Wing FTP Web Administration or Client Interface.
 
+## Adding wingdata to our host
+Since we got an error when we were adding our ip directly to access http at port 80,
+i went ahead and added the wingdata.htb to our main host
+using 
+sudo nano /etc/hosts
+![screenshot for command](/assets/nano.png]
+
+## Navigating to webpage
+We found port 80 open and we all know if http exist we have a website running so i decided to
+check the http service on the web and found the webpage
+![screenshot webpage](wingdata.png)
+
