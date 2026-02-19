@@ -27,7 +27,7 @@ This may include:
 - Reviewing public records and exposed metadata
 
 The more information collected during this phase, the easier it becomes to identify potential attack surfaces later.
-
+![Screenshot for reconnaissance](/assests/recon.png)
 ---
 
 ### 2. Scanning & Enumeration
