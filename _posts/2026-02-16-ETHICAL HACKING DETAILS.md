@@ -39,7 +39,6 @@ Activities include:
 - Operating system fingerprinting
 - Enumerating users and shared resources
 - Identifying misconfigurations
-  
 This phase transforms raw information into actionable intelligence about potential vulnerabilities.
 ![Screenshot for phase2](/assets/phase2.jpg)
 ---
@@ -53,9 +52,8 @@ During vulnerability analysis, discovered services and systems are examined for 
 - Reviewing misconfigurations
 - Testing for weak authentication mechanisms
 - Assessing exposed services
-
 The objective is to determine which vulnerabilities are exploitable and prioritize them based on risk and impact.
-
+![Screenshot for phase2](/assets/phase3.jpg)
 ---
 
 ### 4. Exploitation
