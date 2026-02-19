@@ -1,5 +1,5 @@
 ---
-title: "AVANCED VPN CONNECTION IN HACKTHE BOX"
+title: "ADVANCED VPN CONNECTION IN HACKTHE BOX"
 date: 2026-02-12
 categories: [udp, openvpn]
 tag: [web exploit, nmap, htb labs]
