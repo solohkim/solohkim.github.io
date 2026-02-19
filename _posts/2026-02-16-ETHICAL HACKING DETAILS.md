@@ -39,6 +39,7 @@ Activities include:
 - Operating system fingerprinting
 - Enumerating users and shared resources
 - Identifying misconfigurations
+  
 This phase transforms raw information into actionable intelligence about potential vulnerabilities.
 ![Screenshot for phase2](/assets/phase2.jpg)
 ---
