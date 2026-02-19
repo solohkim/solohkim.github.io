@@ -155,7 +155,7 @@ Search for user-specific files or database dumps (SQLite is common for Wing FTP)
 
 ## SSH Access
 
-With the cracked password, move from the unstable web-shell to a stable SSH session: ssh username@10.129.x.x
+With the cracked password, move from the unstable web-shell to a stable SSH session:
 
 
 
@@ -182,7 +182,7 @@ If the script allows you to write content to a location of your choice, the easi
 
 ## Achieving Root
 
-After exploiting the script to place your SSH key in the root directory: ssh root@10.129.x.x -i id_rsa
+After exploiting the script to place your SSH key in the root directory:
 
 
 
