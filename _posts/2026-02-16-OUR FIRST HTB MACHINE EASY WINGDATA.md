@@ -31,10 +31,10 @@ Since we got an error when we were adding our ip directly to access http at port
 i went ahead and added the wingdata.htb to our main host
 using 
 sudo nano /etc/hosts
-![screenshot for command](/assets/nano.png]
+ ![Screenshot for host](/assets/nano.png)
 
 ## Navigating to webpage
 We found port 80 open and we all know if http exist we have a website running so i decided to
 check the http service on the web and found the webpage
-![screenshot webpage](wingdata.png)
+ ![Screenshot for web](/assets/wingdata.png)
 
