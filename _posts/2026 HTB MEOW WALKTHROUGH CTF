@@ -1,17 +1,30 @@
 ---
-title: "CTF MEOW WALKTHROUGH HTB"
+title: "AVANCED VPN CONNECTION IN HACKTHE BOX"
 date: 2026-02-12
-categories: [vulnerability assessment, web test]
-tag: [web hack, xss injection, hashing]
+categories: [udp, openvpn]
+tag: [web exploit, nmap, htb labs]
 ---
-Welcome to this blog post where we are going to explore meow machine from hack the box.
-In this room we are going to learn more in web penetration, cross site scripting, and hashing techniques
+In Hack The Box (HTB), OpenVPN is used to connect your machine to the HTB lab network so you can access
+machines and challenges.
 
 
-## SQL INJECTION
-SQL injection (SQLi) is a security vulnerability where attackers insert malicious SQL code into input fields to 
-manipulate backend databases
+## How to download
+1. Download Your HTB VPN File
+   Log in to Hack The Box
+   Go to Access → VPN
+   Choose your region (e.g., EU, US, etc.)
+   Download the .ovpn file
 
-## XSS INJECTION
-Cross-Site Scripting (XSS) is a, client-side security vulnerability where attackers inject malicious JavaScript or
-HTML into trusted websites, which then executes in victims' browsers
+## How to Connect
+Navigate to the folder that contains the downloaded file and use the following commands first to install
+the openvpn
+   sudo apt update
+   sudo apt install openvpn -y
+Once installed, run the following commands to connect
+   sudo openvpn yourfile.ovpn
+If you run it successfully you'll see
+   Initialization Sequence Completed
+And if you'd like to disconnect, run this
+   CTRL + C
+
+
