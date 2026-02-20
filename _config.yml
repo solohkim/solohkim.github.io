@@ -39,17 +39,15 @@ Facebook:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: solomon kilonzo
-  email: solomonkilonzo49@gmail.com # change to your email address
+  name: Solomon Kilonzo
+  email: solomonkilonzo49@gmail.com
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    - https://Facebook.com/username # change to your facebook homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
-
+    - https://github.com/solohkim
+    - https://twitter.com/soloh_kim
+    - https://www.facebook.com/soloh_k
+    - https://www.linkedin.com/in/yourprofile  # <-- Update with your actual LinkedIn ID
+    - https://www.instagram.com/yourprofile     # <-- Update with your actual Instagram ID
 # Site Verification Settings
 webmaster_verifications:
   google: # fill in your Google verification code
