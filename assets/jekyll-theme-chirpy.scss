@@ -1,1 +1,14 @@
+---
+---
+@use "main";
 
+/* Force sidebar social icon colors */
+#sidebar-footer .sidebar-link i {
+  &.fa-github { color: #24292e !important; }
+  &.fa-x-twitter { color: #000000 !important; }
+  &.fa-envelope { color: #EA4335 !important; }
+  &.fa-facebook { color: #1877F2 !important; }
+  &.fa-instagram { color: #E4405F !important; }
+  &.fa-linkedin { color: #0077B5 !important; }
+  &.fa-rss { color: #FFA500 !important; }
+}
