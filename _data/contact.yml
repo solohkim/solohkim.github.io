@@ -2,26 +2,33 @@
 
 - type: github
   icon: "fab fa-github"
+  url: 'https://github.com/solohkim'
 
 - type: twitter
   icon: "fa-brands fa-x-twitter"
+  url: 'https://twitter.com/soloh_kim'
 
 - type: email
   icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+  noblank: true
+  url: 'mailto:solomonkilonzo49@gmail.com'
 
-- type: Facebook
+- type: facebook
   icon: "fa-brands fa-facebook"
+  url: 'https://www.facebook.com/soloh_k'
 
-- type: Instagram
+- type: instagram
   icon: "fa-brands fa-instagram"
+  url: 'https://www.instagram.com/your_instagram_username'
 
-- type: LinkedIn
+- type: linkedin
   icon: "fa-brands fa-linkedin"
+  url: 'https://www.linkedin.com/in/your_linkedin_username'
 
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+  url: '/feed.xml'
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
