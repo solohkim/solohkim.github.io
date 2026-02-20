@@ -23,7 +23,8 @@ kali> sudo dpkg -i caido-desktop-v[version].deb
 
 You can also get Caido from the Kali repository by entering:
 
-kali > sudo apt install caido  
+kali > sudo apt install caido 
+![Screenshot download](/assets/1download.png)
 
 ## Step 3: Navigation
 On the left-hand side of Caido is a navigation menu that contains the different feature interfaces. Clicking on a listed feature will present its own page.
