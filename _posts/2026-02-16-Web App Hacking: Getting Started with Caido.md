@@ -27,6 +27,10 @@ kali > sudo apt install caido
 ![Screenshot download](/assets/1download.png)
 After downloading, use the following command to unpack as shown below
 ![Screenshot download](/assets/2unpack.png)
+Launch Caido and start the instance by clicking on the Start button .
+![Screenshot download](/assets/3open.png)
+
+kali > caido
 
 ## Step 3: Navigation
 On the left-hand side of Caido is a navigation menu that contains the different feature interfaces. Clicking on a listed feature will present its own page.
