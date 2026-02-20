@@ -5,7 +5,7 @@ order: 5
 ---
 
 ## 🎓 Education
-**Your Degree** – University Name (Year)  
+Bachelor's Degree in Applied Computing - Information security and forensics – KCA University 2024  
 Relevant Coursework: Network Security, Cryptography, Digital Forensics
 
 ---
