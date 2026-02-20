@@ -10,6 +10,12 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
+- type: Facebook
+  icon: "fa-brands fa-facebook"
+
+- type: Instagram
+  icon: "fa-brands fa-instagram"
+
 - type: rss
   icon: "fas fa-rss"
   noblank: true
