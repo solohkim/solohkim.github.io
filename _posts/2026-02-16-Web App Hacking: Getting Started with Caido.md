@@ -49,25 +49,25 @@ As web traffic accumulates, you can view all intercepted requests and responses 
 ## Replay
 By clicking on a request, you can send it to Replay using the keyboard shortcut Ctrl + R, or by right-cl!
 licking and selecting Send to Replay from the context menu.
-[Screenshot download](/assets/replay.webp)
+![Screenshot download](/assets/replay.webp)
 Here, we can manipulate our requests and view the responses from the server.
-[Screenshot download](/assets/manipulate.webp)
+![Screenshot download](/assets/manipulate.webp)
 
 ## Step 5: Caido vs Burp Suite
 Up to this point, we’ve covered the basic functionality of Caido, similar to what’s available in tools like Burp Suite. Now, let’s look at some features that make it unique.
-[Screenshot download](/assets/caidovsburp.webp)
+![Screenshot download](/assets/caidovsburp.webp)
 
 ## Project Management
 Caido’s built-in project management system helps keep your work organized and makes managing targets effortless. You can easily switch between different targets as needed.
-[Screenshot download](/assets/project.webp)
+![Screenshot download](/assets/project.webp)
 
 ## Intuitive Filtering
 With HTTPQL, you can easily search and filter requests using a simple, user-friendly query language.
-[Screenshot download](/assets/filter.webp)
+![Screenshot download](/assets/filter.webp)
 
 ## Built for Speed
 While Burp Suite struggles with resource efficiency, Caido is built from the ground up in Rust to deliver a fast experience with low memory usage and unparalleled performance.
-[Screenshot download](/assets/speed.webp)
+![Screenshot download](/assets/speed.webp)
 ## Summary
 At this point, you might think that Caido doesn’t offer anything significantly different from Burp Suite. However, I highly recommend installing Caido and trying it out for yourself—experiment with it. This article only scratches the surface of what Caido has to offer. It might just become your next go-to tool for web app hacking.
 
