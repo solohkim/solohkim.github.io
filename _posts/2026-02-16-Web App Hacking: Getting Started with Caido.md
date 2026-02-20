@@ -35,7 +35,7 @@ After that, you will be greeted by a screen like below.
 ![Screenshot download](/assets/4login.png)
 ## Step 3: Navigation
 On the left-hand side of Caido is a navigation menu that contains the different feature interfaces. Clicking on a listed feature will present its own page.
-
+![Screenshot download](/assets/navigate.webp)
 ## Step 4: Using Caido
 The Intercept, Replay, and Automate feature interfaces allow you to view, modify, and control web traffic.
 
