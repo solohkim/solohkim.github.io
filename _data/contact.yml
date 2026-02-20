@@ -16,6 +16,9 @@
 - type: Instagram
   icon: "fa-brands fa-instagram"
 
+- type: LinkedIn
+  icon: "fa-brands fa-linkedin"
+
 - type: rss
   icon: "fas fa-rss"
   noblank: true
