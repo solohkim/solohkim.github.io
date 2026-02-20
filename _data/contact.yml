@@ -19,11 +19,11 @@
 
 - type: instagram
   icon: "fa-brands fa-instagram"
-  url: 'https://www.instagram.com/your_instagram_username'
+  url: 'https://www.instagram.com/soloh_kim'
 
 - type: linkedin
   icon: "fa-brands fa-linkedin"
-  url: 'https://www.linkedin.com/in/your_linkedin_username'
+  url: 'https://www.linkedin.com/in/soloh-kim'
 
 - type: rss
   icon: "fas fa-rss"
